@@ -16,7 +16,7 @@ class HoaDonCaPhe {
     }
 
     public String getTenCaPhe() {
-        return tenCaPhe;
+        return this.tenCaPhe;
     }
 
     public void setTenCaPhe(String tenCaPhe) {
@@ -59,12 +59,12 @@ class HoaDonCaPhe {
     double giamGia(double i) { // nho eps kieu
         if (this.tinhTongTien() > 500000) {
             return (i / 100) * this.tinhTongTien();
-        }else return 0;
+        } else return 0;
 
     }
 
     double giaSauKhiGiam(int i) {
-        return this.tinhTongTien() - this.giamGia(i);   
+        return this.tinhTongTien() - this.giamGia(i);
     }
 
 }
