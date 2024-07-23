@@ -26,6 +26,7 @@ public class Main {
 
         // calendar
         Calendar c = Calendar.getInstance();
+
         System.out.println(c.get(Calendar.DATE) + " " + (c.get(Calendar.MONTH) + 1) + " " + c.get(Calendar.YEAR));
         // them gio
         c.add(Calendar.HOUR, 30);
@@ -37,8 +38,7 @@ public class Main {
         DateFormat df = new SimpleDateFormat();
         System.out.println(df.format(d));
 
-        df = new SimpleDateFormat("yyyy-MM-dd");
-
+        df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         System.out.println(df.format(d));
     }
 }
