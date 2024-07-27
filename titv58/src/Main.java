@@ -21,7 +21,7 @@ public class Main {
         System.out.println("1,3h " + TimeUnit.MINUTES.toSeconds((long) (1.3 * 60)) + " giay");
         // sql.Date
         Date d = new java.sql.Date(System.currentTimeMillis());
-        System.out.println(d.getDate() + " " + (d.getMonth() + 1) + " " + (d.getYear() + 1900));
+        System.out.println(d.getDate() + " " + (d.getMonth() + 1) + " " + ( d.getYear() + 1900));
 
 
         // calendar
