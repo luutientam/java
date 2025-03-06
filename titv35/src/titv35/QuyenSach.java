@@ -16,7 +16,7 @@ public class QuyenSach extends TacGia {
     private TacGia tg;
 
     public QuyenSach(String tenSach, double giaBan, int namXuatBan, TacGia tg) {
-        super("T\u00f9ng TITV", ngay1);
+        super("Tung TITV", ngay1);
         this.tenSach = tenSach;
         this.giaBan = giaBan;
         this.namXuatBan = namXuatBan;
